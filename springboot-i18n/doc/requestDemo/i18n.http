@@ -1,0 +1,32 @@
+### 中文
+POST http://localhost:8080/i18n/message
+Content-Type: application/json
+accept-language: zh-CN,zh;q=0.9
+Authorization: {{token}}
+
+### 英文
+POST http://localhost:8080/i18n/message?lang=en-US
+Content-Type: application/json
+accept-language: zh-CN,zh;q=0.9
+
+### 英文
+POST http://localhost:8080/i18n/message
+Content-Type: application/json
+accept-language: en-us, en;q=0.9
+
+
+### 抛出异常 - 中文
+POST http://localhost:8080/i18n/throw_execption
+Content-Type: application/json
+accept-language: zh-CN,zh;q=0.9
+Authorization: {{token}}
+
+### 抛出异常 - 英文
+POST http://localhost:8080/i18n/throw_execption?lang=en-US
+Content-Type: application/json
+accept-language: zh-CN,zh;q=0.9
+
+### 抛出异常 - 英文
+POST http://localhost:8080/i18n/throw_execption
+Content-Type: application/json
+accept-language: en-us, en;q=0.9
