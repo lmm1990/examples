@@ -1,0 +1,29 @@
+### 登录
+POST localhost:8080/system/user/login
+Content-Type: application/json
+
+{
+  "userName": "admin",
+  "password": "123456"
+}
+
+### 添加用户信息
+POST localhost:8080/system/user/add_edit
+Authorization: K3OFnAf5TqLp4byjw9w5PA
+Content-Type: application/json
+
+{
+  "userId": 0,
+  "userName": "admin"
+}
+
+### 修改用户信息
+POST localhost:8080/system/user/add_edit
+Authorization: K3OFnAf5TqLp4byjw9w5PA
+Content-Type: application/json
+
+
+{
+  "userId": 1,
+  "userName": "admin"
+}
