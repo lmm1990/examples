@@ -1,0 +1,18 @@
+###  添加用户信息
+POST localhost:8080/user/add_edit
+Content-Type: application/json
+
+{
+  "userId": 0,
+  "userName": "张三",
+  "sex": 0
+}
+
+###  修改用户信息
+POST localhost:8080/user/add_edit
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "userName": "张三"
+}

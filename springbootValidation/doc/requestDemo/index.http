@@ -1,0 +1,24 @@
+###  参数校验
+POST localhost:8080/index
+Content-Type: application/json
+
+{
+  "children": [
+    {
+      "notNull": null
+    }
+  ],
+  "notBlank": "",
+  "notNull": null,
+  "max": 11,
+  "min": 0,
+  "date": ""
+}
+
+###  自定义参数校验
+POST localhost:8080/custom_validated
+Content-Type: application/json
+
+{
+  "value": ""
+}
