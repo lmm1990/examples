@@ -1,0 +1,12 @@
+### 测试@Value
+GET http://localhost:6666/yml/test_value
+Accept: text/plain
+
+### 测试@PropertySource + @ConfigurationProperties + @Value
+GET http://localhost:6666/yml/test_property_source
+Accept: text/plain
+
+
+### 测试 Environment
+GET http://localhost:6666/yml/test_environment
+Accept: text/plain

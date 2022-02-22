@@ -1,0 +1,11 @@
+server:
+  port: 6666
+name: 张三
+age: 18
+hungry: true
+person:
+  name: 张三
+  age: 18
+  fruits:
+    - apple
+    - banana
