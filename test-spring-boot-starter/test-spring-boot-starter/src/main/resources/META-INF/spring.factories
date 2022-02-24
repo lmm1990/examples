@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+ show.lmm.demo.starter.core.conf.TestAutoConfiguration
