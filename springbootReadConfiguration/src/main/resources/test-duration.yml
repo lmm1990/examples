@@ -1,0 +1,13 @@
+custom:
+  config:
+    duration-ns: 5ns
+    duration-us: 5000us
+    duration-ms: 5ms
+    duration-s: 5s
+    duration-m: 5m
+    duration-h: 5h
+    duration-d: 5d
+    duration-period-y: 5y
+    duration-period-m: 5m
+    duration-period-w: 5w
+    duration-period-d: 5d

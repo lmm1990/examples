@@ -6,6 +6,11 @@ hungry: true
 person:
   name: 张三
   age: 18
-fruits:
-  - apple
-  - banana
+  fruits:
+    - apple
+    - banana
+custom:
+  weight-t: 5T
+  weight-kg: 5kg
+  weight-g: 5g
+  weight-mg: 5mg

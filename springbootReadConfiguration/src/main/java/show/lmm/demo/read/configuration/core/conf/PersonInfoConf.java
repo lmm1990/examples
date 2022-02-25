@@ -2,6 +2,7 @@ package show.lmm.demo.read.configuration.core.conf;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.boot.context.properties.DeprecatedConfigurationProperty;
 import org.springframework.context.annotation.Configuration;
 
 /**
@@ -26,4 +27,9 @@ public class PersonInfoConf {
      * 水果列表
      */
     private String[] fruits;
+
+    @DeprecatedConfigurationProperty(reason = "fruits已废弃", replacement = "暂无替代")
+    public String[] getFruits() {
+        return fruits;
+    }
 }
