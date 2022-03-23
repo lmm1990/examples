@@ -27,3 +27,6 @@ hs_err_pid*
 /aop/simpleAop/build
 /aop/simpleAop/.gradle
 /aop/simpleAop/.idea
+/aop/springAopDemo/.gradle
+/aop/springAopDemo/.idea
+/aop/springAopDemo/build
