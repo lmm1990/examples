@@ -6,15 +6,17 @@ package show.lmm.demo;
  * @author lmm
  * @date 2022-03-23
  */
-public class UserService implements UserInterface {
+public class UserService {
 
-    @Override
     public void test(){
         System.out.println("test");
     }
 
-    @Override
-    public void run() {
+    public void testThrowing(){
+        throw new RuntimeException("testThrowing");
+    }
+
+    public void run(){
         System.out.println("run");
     }
 }
